@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/multMatrixServer.dir/multmatrixMainServer.cpp.o CMakeFiles/multMatrixServer.dir/multmatrix.cpp.o CMakeFiles/multMatrixServer.dir/multmatrix_imp.cpp.o CMakeFiles/multMatrixServer.dir/utils.cpp.o  -o multMatrixServer  -lpthread 

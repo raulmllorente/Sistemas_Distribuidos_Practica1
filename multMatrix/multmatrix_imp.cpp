@@ -106,7 +106,9 @@ void multmatrix_imp::exec(){
 					sendMSG(clientID,(void*)&res->rows,sizeof(int));
 					sendMSG(clientID,(void*)&res->cols,sizeof(int));
 					sendMSG(clientID,(void*)res->data,sizeof(int)*res->rows*res->cols);
-					
+
+					delete a->data;
+					delete b->data;
 					delete a;
 					delete b;
 					delete res;
@@ -137,6 +139,7 @@ void multmatrix_imp::exec(){
 					
 					//borrar memoria
 					delete fileName;
+					delete matrixentrada->data;
 					delete matrixentrada;
 					
 				}break;

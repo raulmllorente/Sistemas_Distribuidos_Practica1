@@ -6,7 +6,7 @@
 #define OP_LEEMAT         'L'
 #define OP_MULTMAT        'M'
 #define OP_ESCRIBEMAT     'W'
-#define OP_CREAMATID 	   'I'
+#define OP_CREAMATID 	  'I'
 #define OP_CREAMATALE     'A'
 
 #define OP_EXIT           'E'

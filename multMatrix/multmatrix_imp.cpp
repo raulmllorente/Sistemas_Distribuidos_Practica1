@@ -1,6 +1,5 @@
 //Raul Martinez Llorente
 
-
 #include "multmatrix_imp.h"
 
 
